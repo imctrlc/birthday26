@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="background-music" loop>
+        <source src="her.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <section id="page1" class="active">
+            <div class="content">
+                <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
+                    <div class="tenor-gif-embed" 
+                        data-postid="24836384" 
+                        data-share-method="host" 
+                        data-aspect-ratio="1.01587" 
+                        data-width="40%">
+                        <a href="https://tenor.com/view/cat-bugcat-bugcat-capoo-capoo-bugcat-hyper-gif-24836384">Cat Bugcat Sticker</a>
+                    </div>
+                </div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+                <h2>Hi Sayangg, Coba Tebak pin-nyaa!!</h2>
+                <div class="dots-container">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    
+                </div>
+                <div class="keypad">
+                    <button onclick="addNumber(1)">1</button><button onclick="addNumber(2)">2</button><button onclick="addNumber(3)">3</button>
+                    <button onclick="addNumber(4)">4</button><button onclick="addNumber(5)">5</button><button onclick="addNumber(6)">6</button>
+                    <button onclick="addNumber(7)">7</button><button onclick="addNumber(8)">8</button><button onclick="addNumber(9)">9</button>
+                    <button onclick="addNumber(0)">0</button><button onclick="deleteNumber()">⌫</button>
+                </div>
+                <p class="clue">clue: your birthday</p>
+            </div>
+        </section>
+
+        <section id="page2">
+            <div class="content">
+                <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
+                    <div class="tenor-gif-embed" 
+                        data-postid="24993773" 
+                        data-share-method="host" 
+                        data-aspect-ratio="1.01587" 
+                        data-width="100%">
+                        <a href="https://tenor.com/view/tkthao219-capoo-cat-gif-24993773">Cat Bugcat Sticker</a>
+                    </div>
+                </div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+                <h2>hallo, cantikuu 🫶🏻</h2>
+                <button class="btn" onclick="nextPage(3)">tap disini <3</button>
+            </div>
+        </section>
+
+        <section id="page3">
+            <div class="content">
+                <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
+                    <div class="tenor-gif-embed"
+                    data-postid="26623251" 
+                    data-share-method="host" 
+                    data-aspect-ratio="1" 
+                    data-width="100%">
+                    <a href="https://tenor.com/view/bugcat-capoo-gif-26623251">Bugcat Capoo Sticker</a>from <a href="https://tenor.com/search/bugcat-stickers">Bugcat Stickers</a>
+                    </div>
+                </div>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+                <h2>Siap buat lanjut?</h2>
+                <div class="btn-group">
+                    <button class="btn" onclick="nextPage(4)">IYAAA</button>
+                    <button class="btn" onclick="nextPage(6)">GA</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="page4">
+            <div class="content">
+                <div class="photo-card">
+                    <img src="https://via.placeholder.com/300x400" alt="Foto Kenangan" id="gallery-img">
+                    <p id="gallery-text">ini foto foto kita</p>
+                </div>
+                <button class="btn" onclick="nextGallery()">klik ini</button>
+            </div>
+        </section>
+
+        <section id="page5">
+            <div class="content letter-container">
+                <h2>Happy birthday, my love 🤍</h2>
+                <p id="typing-text"></p>
+                <button class="btn" onclick="location.reload()">Kembali ke Awal</button>
+            </div>
+        </section>
+        
+        <section id="page6">
+            <div class="content">
+                <div style="display: flex; justify-content: center; width: 100%; margin-bottom: 20px;">
+                    <div class="tenor-gif-embed" 
+                    data-postid="3032202811573496723" 
+                    data-share-method="host" 
+                    data-aspect-ratio="1.16794" 
+                    data-width="100%">
+                    <a href="https://tenor.com/view/capoo-gif-3032202811573496723">Capoo Sticker</a>from <a href="https://tenor.com/search/capoo-stickers">Capoo Stickers</a>
+                    </div>
+                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                </div>
+                <h2>YAUDAH. BYE.</h2>
+                <div class="btn-group">
+                    <button class="btn" onclick="nextPage(3)">Iyadeh sayangg</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
