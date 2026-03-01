@@ -1,5 +1,5 @@
 let password = "";
-const correctPassword = "1111"; // Ganti dengan tanggal lahirnya (DDMMYY)
+const correctPassword = "2802"; // Ganti dengan tanggal lahirnya (DDMMYY)
 let currentGallery = 0;
 
 const galleryData = [,
@@ -79,4 +79,5 @@ function startTyping() {
         }
     }
     type();
+
 }
